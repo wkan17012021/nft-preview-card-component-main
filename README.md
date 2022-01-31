@@ -12,6 +12,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -54,3 +55,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Author
 
 - wkan17012021
+
+## Acknowledgments
+
+- @AkromDev (Frontend Mentor)
+- @Aadv1k (Frontend Mentor)

@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles.css">
-  <title>Frontend Mentor | NFT preview card component</title>
-
-</head>
-
-<body>
-  <main>
-    <section>
-      <img id="Equilibrium" src="./images/image-equilibrium.jpg">
-      <h1>Equilibrium #3429</h1>
-      <h3>Our Equilibrium collection promotes balance and calm.</h3>
-      <div id="parent">
-        <div class="left_container">
-        <img id="Ethereum" src="./images/icon-ethereum.svg">
-        <span class="ETH">0.041 ETH</span>
-      </div>
-      <div class="right_container">
-        <img id="Clock" src="./images/icon-clock.svg"><span>3 days left</span>
-      </div>
-      </div>
-      <div class="line"></div>
-      <div id="footer">
-        <img id="Avatar" src="./images/image-avatar.png">
-      <a class="author" rel="author">Creation of <span class="Jules">Jules Wyvern</span></a>
-      </div>
-    </section>
-  </main>
-
-</body>
-
+  <body>
+    <main>
+      <section>
+        <img
+          id="Equilibrium"
+          src="./images/image-equilibrium.jpg"
+          alt="translucent_cube"
+        />
+        <h1>Equilibrium #3429</h1>
+        <h2>Our Equilibrium collection promotes balance and calm.</h2>
+        <div id="parent">
+          <div class="left_container">
+            <img
+              id="Ethereum"
+              src="./images/icon-ethereum.svg"
+              alt="icon-ethereum"
+            />
+            <span class="ETH">0.041 ETH</span>
+          </div>
+          <div class="right_container">
+            <img
+              id="Clock"
+              src="./images/icon-clock.svg"
+              alt="icon-clock"
+            /><span>3 days left</span>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div id="footer">
+          <img
+            id="Avatar"
+            src="./images/image-avatar.png"
+            alt="profile-photo"
+          />
+          <a href="#" class="author" rel="author"
+            >Creation of <span class="Jules">Jules Wyvern</span></a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
